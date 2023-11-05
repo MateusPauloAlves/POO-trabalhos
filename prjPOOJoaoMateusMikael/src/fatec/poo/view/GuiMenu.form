@@ -4,39 +4,39 @@
   <NonVisualComponents>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="jMenu1">
+        <Menu class="javax.swing.JMenu" name="MenuCadastro">
           <Properties>
             <Property name="text" type="java.lang.String" value="Cadastro"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+            <MenuItem class="javax.swing.JMenuItem" name="MiQuarto">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Quarto"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+            <MenuItem class="javax.swing.JMenuItem" name="MiRecepcionista">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Recepcionista"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+            <MenuItem class="javax.swing.JMenuItem" name="MiHospede">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Hospede"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+            <MenuItem class="javax.swing.JMenuItem" name="MiServicoDeQuarto">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Servi&#xe7;o de Quarto"/>
               </Properties>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu2">
+        <Menu class="javax.swing.JMenu" name="MenuRegistro">
           <Properties>
             <Property name="text" type="java.lang.String" value="Registro"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+            <MenuItem class="javax.swing.JMenuItem" name="MiReservarLiberar">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Reservar/Liberar"/>
               </Properties>
