@@ -13,21 +13,33 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Quarto"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiQuartoActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="MiRecepcionista">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Recepcionista"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiRecepcionistaActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="MiHospede">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Hospede"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiHospedeActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="MiServicoDeQuarto">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Servi&#xe7;o de Quarto"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiServicoDeQuartoActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -40,6 +52,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Reservar/Liberar"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiReservarLiberarActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
