@@ -42,15 +42,35 @@ public class GuiMenu extends javax.swing.JFrame {
         MenuCadastro.setText("Cadastro");
 
         MiQuarto.setText("Quarto");
+        MiQuarto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MiQuartoActionPerformed(evt);
+            }
+        });
         MenuCadastro.add(MiQuarto);
 
         MiRecepcionista.setText("Recepcionista");
+        MiRecepcionista.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MiRecepcionistaActionPerformed(evt);
+            }
+        });
         MenuCadastro.add(MiRecepcionista);
 
         MiHospede.setText("Hospede");
+        MiHospede.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MiHospedeActionPerformed(evt);
+            }
+        });
         MenuCadastro.add(MiHospede);
 
         MiServicoDeQuarto.setText("Serviço de Quarto");
+        MiServicoDeQuarto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MiServicoDeQuartoActionPerformed(evt);
+            }
+        });
         MenuCadastro.add(MiServicoDeQuarto);
 
         jMenuBar1.add(MenuCadastro);
@@ -58,6 +78,11 @@ public class GuiMenu extends javax.swing.JFrame {
         MenuRegistro.setText("Registro");
 
         MiReservarLiberar.setText("Reservar/Liberar");
+        MiReservarLiberar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MiReservarLiberarActionPerformed(evt);
+            }
+        });
         MenuRegistro.add(MiReservarLiberar);
 
         jMenuBar1.add(MenuRegistro);
@@ -77,6 +102,36 @@ public class GuiMenu extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void MiQuartoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MiQuartoActionPerformed
+        GuiCadastroQuarto objCadastroQuarto;
+        objCadastroQuarto = new GuiCadastroQuarto();
+        objCadastroQuarto.setVisible(true);
+    }//GEN-LAST:event_MiQuartoActionPerformed
+
+    private void MiRecepcionistaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MiRecepcionistaActionPerformed
+        GuiCadastroRecepcionista objRecepcionista;
+        objRecepcionista = new GuiCadastroRecepcionista();
+        objRecepcionista.setVisible(true);
+    }//GEN-LAST:event_MiRecepcionistaActionPerformed
+
+    private void MiHospedeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MiHospedeActionPerformed
+        GuiCadastroHospede objHospede;
+        objHospede = new GuiCadastroHospede();
+        objHospede.setVisible(true);
+    }//GEN-LAST:event_MiHospedeActionPerformed
+
+    private void MiServicoDeQuartoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MiServicoDeQuartoActionPerformed
+        GuiServicoDeQuarto objServicoQuarto;
+        objServicoQuarto = new GuiServicoDeQuarto();
+        objServicoQuarto.setVisible(true);
+    }//GEN-LAST:event_MiServicoDeQuartoActionPerformed
+
+    private void MiReservarLiberarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MiReservarLiberarActionPerformed
+        GuiCadastroReservaLiberacaoQuarto objLiberaQuarto;
+        objLiberaQuarto = new GuiCadastroReservaLiberacaoQuarto();
+        objLiberaQuarto.setVisible(true);
+    }//GEN-LAST:event_MiReservarLiberarActionPerformed
 
     /**
      * @param args the command line arguments
