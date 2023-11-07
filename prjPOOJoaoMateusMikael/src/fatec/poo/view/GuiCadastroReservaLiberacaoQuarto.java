@@ -43,14 +43,14 @@ public class GuiCadastroReservaLiberacaoQuarto extends javax.swing.JFrame {
         btnSair = new javax.swing.JButton();
         btnLiberar = new javax.swing.JButton();
         btnReservar = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        btnProcurarCPFHospede = new javax.swing.JButton();
+        btnProcurarRegistroFuncional = new javax.swing.JButton();
         lblValorHospedagemSaida = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
+        lblResultadoRegistroFuncional = new javax.swing.JLabel();
+        lblResultadoCPFHospede = new javax.swing.JLabel();
         lblSituaçao = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
-        jLabel12 = new javax.swing.JLabel();
+        btnProcurarNumQuarto = new javax.swing.JButton();
+        lblResultadoNumQuarto = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Registro Hospedagem");
@@ -110,21 +110,21 @@ public class GuiCadastroReservaLiberacaoQuarto extends javax.swing.JFrame {
         btnReservar.setText("Reservar");
         btnReservar.setEnabled(false);
 
-        jButton4.setText(". . .");
+        btnProcurarCPFHospede.setText(". . .");
 
-        jButton5.setText(". . .");
+        btnProcurarRegistroFuncional.setText(". . .");
 
         lblValorHospedagemSaida.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
-        jLabel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        lblResultadoRegistroFuncional.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
-        jLabel9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        lblResultadoCPFHospede.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
         lblSituaçao.setText("Situação");
 
-        jButton6.setText(". . .");
+        btnProcurarNumQuarto.setText(". . .");
 
-        jLabel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        lblResultadoNumQuarto.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -156,19 +156,19 @@ public class GuiCadastroReservaLiberacaoQuarto extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton4)
+                                .addComponent(btnProcurarCPFHospede)
                                 .addGap(18, 18, 18)
-                                .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(lblResultadoCPFHospede, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton5)
+                                .addComponent(btnProcurarRegistroFuncional)
                                 .addGap(18, 18, 18)
-                                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(lblResultadoRegistroFuncional, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(lblSituaçao)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton6)
+                                .addComponent(btnProcurarNumQuarto)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                                .addComponent(lblResultadoNumQuarto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                 .addContainerGap(32, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -190,21 +190,21 @@ public class GuiCadastroReservaLiberacaoQuarto extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblRegisFunc)
                     .addComponent(txtRegisFunc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnProcurarRegistroFuncional)
+                    .addComponent(lblResultadoRegistroFuncional, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(14, 14, 14)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblCPFHosp)
                     .addComponent(ftxtCPFHosp, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnProcurarCPFHospede, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblResultadoCPFHospede, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblNquarto)
                     .addComponent(txtNquarto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblSituaçao)
-                    .addComponent(jButton6)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnProcurarNumQuarto)
+                    .addComponent(lblResultadoNumQuarto, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblDataEntrada)
@@ -239,21 +239,21 @@ public class GuiCadastroReservaLiberacaoQuarto extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLiberar;
+    private javax.swing.JButton btnProcurarCPFHospede;
+    private javax.swing.JButton btnProcurarNumQuarto;
+    private javax.swing.JButton btnProcurarRegistroFuncional;
     private javax.swing.JButton btnReservar;
     private javax.swing.JButton btnSair;
     private javax.swing.JFormattedTextField ftxtCPFHosp;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel lblCPFHosp;
     private javax.swing.JLabel lblCodigo;
     private javax.swing.JLabel lblDataEntrada;
     private javax.swing.JLabel lblDataSaida;
     private javax.swing.JLabel lblNquarto;
     private javax.swing.JLabel lblRegisFunc;
+    private javax.swing.JLabel lblResultadoCPFHospede;
+    private javax.swing.JLabel lblResultadoNumQuarto;
+    private javax.swing.JLabel lblResultadoRegistroFuncional;
     private javax.swing.JLabel lblSituaçao;
     private javax.swing.JLabel lblValorHospedagem;
     private javax.swing.JLabel lblValorHospedagemSaida;

@@ -53,21 +53,21 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnProcurarCPFHospede" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jLabel9" max="32767" attributes="0"/>
+                              <Component id="lblResultadoCPFHospede" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnProcurarRegistroFuncional" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jLabel8" min="-2" pref="280" max="-2" attributes="0"/>
+                              <Component id="lblResultadoRegistroFuncional" min="-2" pref="280" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Component id="lblSituaçao" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnProcurarNumQuarto" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jLabel12" max="32767" attributes="0"/>
+                              <Component id="lblResultadoNumQuarto" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -97,23 +97,23 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblRegisFunc" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtRegisFunc" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel8" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="btnProcurarRegistroFuncional" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblResultadoRegistroFuncional" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblCPFHosp" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="ftxtCPFHosp" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton4" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                  <Component id="jLabel9" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="btnProcurarCPFHospede" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="lblResultadoCPFHospede" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblNquarto" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtNquarto" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="lblSituaçao" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel12" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="btnProcurarNumQuarto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblResultadoNumQuarto" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -242,12 +242,12 @@
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="btnProcurarCPFHospede">
       <Properties>
         <Property name="text" type="java.lang.String" value=". . ."/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton5">
+    <Component class="javax.swing.JButton" name="btnProcurarRegistroFuncional">
       <Properties>
         <Property name="text" type="java.lang.String" value=". . ."/>
       </Properties>
@@ -261,7 +261,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel8">
+    <Component class="javax.swing.JLabel" name="lblResultadoRegistroFuncional">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
@@ -270,7 +270,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
+    <Component class="javax.swing.JLabel" name="lblResultadoCPFHospede">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
@@ -284,12 +284,12 @@
         <Property name="text" type="java.lang.String" value="Situa&#xe7;&#xe3;o"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton6">
+    <Component class="javax.swing.JButton" name="btnProcurarNumQuarto">
       <Properties>
         <Property name="text" type="java.lang.String" value=". . ."/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel12">
+    <Component class="javax.swing.JLabel" name="lblResultadoNumQuarto">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
