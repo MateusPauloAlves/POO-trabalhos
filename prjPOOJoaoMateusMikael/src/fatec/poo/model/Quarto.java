@@ -21,7 +21,7 @@ public class Quarto {
     }
     
     public double liberar(int dias){
-        this.reservar();
+        this.situacao = false;
         double valorHospedagem = dias * valorDiaria;
         totalFaturado =+ valorDiaria;
         return valorHospedagem;

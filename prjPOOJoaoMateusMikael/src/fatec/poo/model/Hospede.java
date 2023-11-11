@@ -30,7 +30,7 @@ public class Hospede extends Pessoa {
     }
   
     //métodos adicionais para a multiplicidade
-    public void setRegistro(Registro r) {
+    public void addRegistro(Registro r) {
         registros.add(r);
     }
 }

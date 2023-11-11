@@ -2,7 +2,7 @@ package fatec.poo.model;
 
 
 
-public abstract class Pessoa {
+public class Pessoa {
     private String nome;
     private String endereco;
     private String telefone;

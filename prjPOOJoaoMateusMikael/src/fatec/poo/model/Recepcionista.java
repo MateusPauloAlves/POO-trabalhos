@@ -25,8 +25,7 @@ public class Recepcionista extends Pessoa {
     }
 
     public void setTurno(String turno) {
-        if((turno == "M") || (turno == "T") || (turno == "N"))
-            this.turno = turno ;
+        this.turno = turno ;
     }
 
     public int getRegFunc() {
@@ -38,7 +37,7 @@ public class Recepcionista extends Pessoa {
     }
     
     //métodos para a multiplicidade
-    public void setRegistro(Registro r) {
+    public void addRegistro(Registro r) {
         registros.add(r);
     }
     

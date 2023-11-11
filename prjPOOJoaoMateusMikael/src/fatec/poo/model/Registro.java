@@ -55,7 +55,7 @@ public class Registro {
     //outros métodos da classe
     public void reservarQuarto(Hospede hospede, Quarto quarto) {
         this.hospede = hospede;
-        hospede.setRegistro(this);
+        hospede.addRegistro(this);
         this.quarto = quarto;
         quarto.reservar();
     }
@@ -69,7 +69,7 @@ public class Registro {
             totalServicos += servicoQuarto.get(i).getValor();
         }
         
-        return (valorLiberacao + (1 * hospede.getTaxaDesconto()/100) + totalServicos);
+        return (valorLiberacao + (hospede.getTaxaDesconto()/100) + totalServicos);
     }
     
     
